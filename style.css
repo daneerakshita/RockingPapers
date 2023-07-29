@@ -1,0 +1,83 @@
+body {
+    margin: 10px ;
+    padding: 20px;
+    display: block;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: azure;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #9e4244 ;
+    text-align: center;
+
+    /* Add any other styles you want for the heading */
+  }
+
+  button {
+    border: red;
+    display: inline-block;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    font-size: 0;
+    transition: all 0.3s; /* Add smooth transition for the size change */
+  }
+
+  /* Optional: Add some styles to the icon to control its size and position */
+  button img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Allow the image to scale proportionally */
+  }
+
+  .enlarged {
+    transform: scale(1.2); /* Increase the size using CSS transform */
+  }
+
+  .everything {
+    width: 100%;
+    text-align: center; /* Optional: Align the divs in the center */
+  }
+
+  .computer, .user {
+    display: inline-block;
+    width: 45%; /* Adjust the width as needed */
+    padding: 10px; 
+  }/* Optional: Add padding for better appearance */
+    /*background-color: #f0f0f0; 
+  .computer {
+    display: inline-block;
+    padding: 0;
+  }*/
+
+  #image1 {
+    width: 125px; /* Adjust the width as needed */
+    height: auto; 
+    padding-left: 10px;
+  }
+
+  #image2 {
+    width: 125px; /* Adjust the width as needed */
+    height: auto; 
+    padding-left: 10px;
+  }
+
+  #image3 {
+    width: 125px; /* Adjust the width as needed */
+    height: auto; 
+    padding-left: 10px;
+  }
+
+  .result {
+    color: #fcbcbd ;
+    text-align: center;
+  }
+ 

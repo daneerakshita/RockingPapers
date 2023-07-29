@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Rock Paper Scissors shoot</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Rock Paper Scissors</h1>
+        <div class="everything almost">
+            <div class = "user">
+                <h2>Your Choice: <span id="user-choice"></span></h2>
+                <button id="rock"> 
+                    <img src="./rock.png" alt="rock"  onclick= "enlargeButton(this)">
+                </button>
+                <button id="paper">
+                    <img src="./paper.png" alt="paper"  onclick= "enlargeButton(this)">
+                </button>
+                <button id="scissors">
+                    <img src="./scissors.png" alt="scissors"  onclick= "enlargeButton(this)">
+                </button>
+    
+            </div>
+            <div class="computer" >
+                <h2>Devil's Choice: <span id="computer-choice"></span></h2>
+                <div id="image-container"> 
+                    <!--
+                    <div  id="image1">
+                        <img src="./rock.png" alt="Image 1">
+                    </div>
+                    <div  id="image2">
+                        <img src="./paper.png" alt="Image 2">
+                    </div>
+                    <div  id="image3">
+                        <img src="./scissors.png" alt="Image 3">
+                    </div>
+                    -->
+
+                </div>
+                
+                
+            </div>
+    
+    
+            <div class = "result">
+                <h2>Result: <span id="result"></span></h2>
+            </div>
+
+        </div>
+        
+        
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+</html>
